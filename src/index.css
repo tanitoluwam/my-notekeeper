@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome-section {
+  height: 100vh;
+  background-color: #202124;
+  padding: 300px 50px;
+}
+
+.login-details {
+  height: 100vh;
+  padding: 300px 50px;
+}
+
+.cta-btn {
+  background-color: #fbcd41;
+  border: none;
+}
+.sign-in_section {
+  width: 50%;
+}
+.create-account {
+  padding: 300px 50px;
+  height: 100vh;
+}
+.card-body {
+  background-color: #202124;
+  border: white;
+  color: #e8eaed;
+}
+.white-text {
+  color: #ffffffe3;
+  background-color: #202124;
+  height: 100vh;
+}
+.sign-in {
+  padding: 300px 60px;
+  width: 50%;
+  height: 100%;
+}
+.add-note-btn {
+  position: relative;
+  top: 600px;
+}
+.link-color {
+  color: #202124;
+}
+.link-color:hover {
+  color: #202124;
+}
+.dashboard-container {
+  background-color: #202124;
+  height: 100vh;
+}
+.task-box {
+  width: 19rem;
+  /* height: 18rem; */
+  height: auto;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+.error {
+  color: red;
+  text-align: start;
+  margin-top: 5px;
+}
+.form-control {
+  border: none;
+}
+.note-details {
+  text-align: justify;
+}
+
+.btn-login:hover {
+  background-color: #fbcd41;
+}
